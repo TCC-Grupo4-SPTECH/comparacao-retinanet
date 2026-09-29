@@ -1,0 +1,122 @@
+PS C:\Users\zapab\Downloads\treino_yolo> & C:\Users\zapab\AppData\Local\Programs\Python\Python313\python.exe c:/Users/zapab/Downloads/treino_yolo/treino_yolo/10_treinar_retinanet_metricas_completas_visualizacao.py
+Treinando na GPU: NVIDIA GeForce RTX 2060
+Treino: 1365 imagens | Validacao: 341 imagens
+[epoca 1/60] loss=0.6907 (139.8s) lr=0.000500
+[epoca 2/60] loss=0.5296 (140.4s) lr=0.000499
+[epoca 3/60] loss=0.5183 (139.3s) lr=0.000497
+[epoca 4/60] loss=0.3824 (140.0s) lr=0.000495
+[epoca 5/60] loss=0.3420 (139.5s) lr=0.000491
+C:\Users\zapab\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchmetrics\utilities\prints.py:43: UserWarning: Encountered more than 100 detections in a single image. This means that certain detections with the lowest scores will be ignored, that may have an undesirable impact on performance. Please consider adjusting the `max_detection_threshold` to suit your use case. To disable this warning, set attribute class `warn_on_many_detections=False`, after initializing the metric.
+  warnings.warn(*args, **kwargs)
+  -> validacao: Precision=0.952 Recall=0.214 F1=0.349 | mAP50=0.728 mAP50-95=0.519 mar_100=0.734
+     matriz: TN=86 FP=5 FN=364 TP=99
+  -> novo melhor modelo salvo (runs_retinanet\arara_retinanet_r50\best.pt)
+[epoca 6/60] loss=0.2736 (139.8s) lr=0.000488
+[epoca 7/60] loss=0.2563 (140.6s) lr=0.000483
+[epoca 8/60] loss=0.2137 (140.0s) lr=0.000478
+[epoca 9/60] loss=0.1830 (140.1s) lr=0.000473
+[epoca 10/60] loss=0.1686 (139.8s) lr=0.000467
+  -> validacao: Precision=0.811 Recall=0.806 F1=0.808 | mAP50=0.846 mAP50-95=0.631 mar_100=0.778
+     matriz: TN=77 FP=87 FN=90 TP=373
+  -> novo melhor modelo salvo (runs_retinanet\arara_retinanet_r50\best.pt)
+[epoca 11/60] loss=0.1703 (140.3s) lr=0.000460
+[epoca 12/60] loss=0.1534 (139.7s) lr=0.000452
+[epoca 13/60] loss=0.1415 (140.7s) lr=0.000444
+[epoca 14/60] loss=0.1340 (139.5s) lr=0.000436
+[epoca 15/60] loss=0.1407 (140.8s) lr=0.000427
+  -> validacao: Precision=0.774 Recall=0.812 F1=0.792 | mAP50=0.837 mAP50-95=0.636 mar_100=0.767
+     matriz: TN=77 FP=110 FN=87 TP=376
+[epoca 16/60] loss=0.1235 (139.2s) lr=0.000417
+[epoca 17/60] loss=0.1125 (140.2s) lr=0.000407
+[epoca 18/60] loss=0.1078 (139.9s) lr=0.000397
+[epoca 19/60] loss=0.1045 (139.8s) lr=0.000386
+[epoca 20/60] loss=0.1021 (140.2s) lr=0.000375
+  -> validacao: Precision=0.789 Recall=0.816 F1=0.803 | mAP50=0.849 mAP50-95=0.656 mar_100=0.774
+     matriz: TN=77 FP=101 FN=85 TP=378
+  -> novo melhor modelo salvo (runs_retinanet\arara_retinanet_r50\best.pt)
+[epoca 21/60] loss=0.0965 (139.7s) lr=0.000363
+[epoca 22/60] loss=0.1046 (140.3s) lr=0.000352
+[epoca 23/60] loss=0.1168 (139.6s) lr=0.000340
+[epoca 24/60] loss=0.0914 (140.3s) lr=0.000327
+[epoca 25/60] loss=0.0971 (139.3s) lr=0.000315
+  -> validacao: Precision=0.796 Recall=0.825 F1=0.810 | mAP50=0.843 mAP50-95=0.657 mar_100=0.771
+     matriz: TN=78 FP=98 FN=81 TP=382
+[epoca 26/60] loss=0.1117 (140.5s) lr=0.000302
+[epoca 27/60] loss=0.1021 (139.4s) lr=0.000289
+[epoca 28/60] loss=0.0851 (140.6s) lr=0.000276
+[epoca 29/60] loss=0.0894 (140.0s) lr=0.000263
+[epoca 30/60] loss=0.0809 (140.1s) lr=0.000250
+  -> validacao: Precision=0.880 Recall=0.773 F1=0.823 | mAP50=0.836 mAP50-95=0.638 mar_100=0.742
+     matriz: TN=85 FP=49 FN=105 TP=358
+[epoca 31/60] loss=0.1082 (140.0s) lr=0.000237
+[epoca 32/60] loss=0.0814 (139.7s) lr=0.000224
+[epoca 33/60] loss=0.0776 (140.2s) lr=0.000211
+[epoca 34/60] loss=0.0747 (139.3s) lr=0.000198
+[epoca 35/60] loss=0.0730 (141.0s) lr=0.000185
+  -> validacao: Precision=0.788 Recall=0.842 F1=0.814 | mAP50=0.854 mAP50-95=0.654 mar_100=0.768
+     matriz: TN=80 FP=105 FN=73 TP=390
+  -> novo melhor modelo salvo (runs_retinanet\arara_retinanet_r50\best.pt)
+[epoca 36/60] loss=0.1565 (138.8s) lr=0.000173
+[epoca 37/60] loss=0.1708 (140.3s) lr=0.000160
+[epoca 38/60] loss=0.3199 (139.5s) lr=0.000148
+[epoca 39/60] loss=0.1245 (140.3s) lr=0.000137
+[epoca 40/60] loss=0.1032 (139.7s) lr=0.000125
+  -> validacao: Precision=0.812 Recall=0.810 F1=0.811 | mAP50=0.842 mAP50-95=0.640 mar_100=0.767
+     matriz: TN=83 FP=87 FN=88 TP=375
+[epoca 41/60] loss=0.0947 (140.2s) lr=0.000114
+[epoca 42/60] loss=0.0884 (140.0s) lr=0.000103
+[epoca 43/60] loss=0.0892 (139.9s) lr=0.000093
+[epoca 44/60] loss=0.0840 (140.0s) lr=0.000083
+[epoca 45/60] loss=0.0793 (139.5s) lr=0.000073
+  -> validacao: Precision=0.791 Recall=0.825 F1=0.808 | mAP50=0.847 mAP50-95=0.635 mar_100=0.761
+     matriz: TN=80 FP=101 FN=81 TP=382
+[epoca 46/60] loss=0.0775 (140.4s) lr=0.000064
+[epoca 47/60] loss=0.0772 (139.6s) lr=0.000056
+[epoca 48/60] loss=0.0760 (140.5s) lr=0.000048
+[epoca 49/60] loss=0.0753 (139.4s) lr=0.000040
+[epoca 50/60] loss=0.0753 (140.3s) lr=0.000033
+  -> validacao: Precision=0.793 Recall=0.819 F1=0.806 | mAP50=0.854 mAP50-95=0.646 mar_100=0.767
+     matriz: TN=81 FP=99 FN=84 TP=379
+  -> novo melhor modelo salvo (runs_retinanet\arara_retinanet_r50\best.pt)
+[epoca 51/60] loss=0.0729 (139.5s) lr=0.000027
+[epoca 52/60] loss=0.0755 (140.2s) lr=0.000022
+[epoca 53/60] loss=0.0759 (140.0s) lr=0.000017
+[epoca 54/60] loss=0.0751 (140.2s) lr=0.000012
+[epoca 55/60] loss=0.0742 (140.1s) lr=0.000009
+  -> validacao: Precision=0.800 Recall=0.838 F1=0.819 | mAP50=0.851 mAP50-95=0.649 mar_100=0.770
+     matriz: TN=80 FP=97 FN=75 TP=388
+[epoca 56/60] loss=0.0748 (139.8s) lr=0.000005
+[epoca 57/60] loss=0.0723 (140.3s) lr=0.000003
+[epoca 58/60] loss=0.0721 (139.8s) lr=0.000001
+[epoca 59/60] loss=0.0721 (140.5s) lr=0.000000
+[epoca 60/60] loss=0.0727 (139.3s) lr=0.000000
+  -> validacao: Precision=0.803 Recall=0.819 F1=0.811 | mAP50=0.843 mAP50-95=0.638 mar_100=0.759
+     matriz: TN=81 FP=93 FN=84 TP=379
+
+==== TREINO CONCLUIDO ====
+
+==== METRICAS FINAIS — RetinaNet-R50 (validacao, ultimo epoch) ====
+Precision:         0.803
+Recall:            0.819
+F1-score:          0.811
+mAP50:             0.843
+mAP50-95:          0.638
+mar_100 (recall):  0.759
+Matriz: TN=81 | FP=93 | FN=84 | TP=379
+
+==== GERANDO PREDICOES VISUAIS ====
+Imagens: 10 | confidence threshold: 0.5
+  -> inat_102286628.jpg: 1 deteccao(oes) | salvo em runs_retinanet\arara_retinanet_r50\predicoes_validacao\inat_102286628_retinanet.jpg
+  -> inat_103605140.jpg: 1 deteccao(oes) | salvo em runs_retinanet\arara_retinanet_r50\predicoes_validacao\inat_103605140_retinanet.jpg
+  -> inat_103946794.jpg: 1 deteccao(oes) | salvo em runs_retinanet\arara_retinanet_r50\predicoes_validacao\inat_103946794_retinanet.jpg
+  -> inat_103980458.jpg: 3 deteccao(oes) | salvo em runs_retinanet\arara_retinanet_r50\predicoes_validacao\inat_103980458_retinanet.jpg
+  -> inat_104659909.jpg: 1 deteccao(oes) | salvo em runs_retinanet\arara_retinanet_r50\predicoes_validacao\inat_104659909_retinanet.jpg
+  -> inat_104664102.jpg: 2 deteccao(oes) | salvo em runs_retinanet\arara_retinanet_r50\predicoes_validacao\inat_104664102_retinanet.jpg
+  -> inat_106400023.jpg: 1 deteccao(oes) | salvo em runs_retinanet\arara_retinanet_r50\predicoes_validacao\inat_106400023_retinanet.jpg
+  -> inat_10769050.jpg: 2 deteccao(oes) | salvo em runs_retinanet\arara_retinanet_r50\predicoes_validacao\inat_10769050_retinanet.jpg
+  -> inat_107891107.jpg: 2 deteccao(oes) | salvo em runs_retinanet\arara_retinanet_r50\predicoes_validacao\inat_107891107_retinanet.jpg
+  -> inat_113782025.jpg: 1 deteccao(oes) | salvo em runs_retinanet\arara_retinanet_r50\predicoes_validacao\inat_113782025_retinanet.jpg
+
+CSV de metricas: runs_retinanet\arara_retinanet_r50\metricas_por_epoca.csv
+Matriz de confusao: runs_retinanet\arara_retinanet_r50\matriz_confusao_final.csv
+Pesos em: runs_retinanet\arara_retinanet_r50/best.pt (melhor) e runs_retinanet\arara_retinanet_r50/last.pt (ultimo)

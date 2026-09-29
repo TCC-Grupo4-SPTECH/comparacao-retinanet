@@ -1,0 +1,6 @@
+path: C:\Users\zapab\Downloads\treino_yolo\dataset\final
+train: images/train
+val: images/val
+
+nc: 1
+names: ["arara_azul"]
